@@ -1,0 +1,185 @@
+================================================================================
+Consolidated Analysis Report
+Feature Transformation: normal
+Scaling Method: Standard
+================================================================================
+
+--- Group: all_data ---
+
+[1] Best Hyperparameters:
+  - algorithm: auto
+  - leaf_size: 10
+  - metric: manhattan
+  - n_neighbors: 25
+  - p: 1
+  - weights: uniform
+
+[2] Performance Metrics:
+  - MSE: 0.2657
+  - RMSE: 0.5155
+  - MAE: 0.4220
+  - R2: 0.3888
+  - PLCC: 0.6237
+  - SRCC: 0.5489
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_1 ---
+
+[1] Best Hyperparameters:
+  - algorithm: auto
+  - leaf_size: 30
+  - metric: manhattan
+  - n_neighbors: 25
+  - p: 1
+  - weights: uniform
+
+[2] Performance Metrics:
+  - MSE: 0.0387
+  - RMSE: 0.1967
+  - MAE: 0.1470
+  - R2: 0.8843
+  - PLCC: 0.9410
+  - SRCC: 0.9438
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_2 ---
+
+[1] Best Hyperparameters:
+  - algorithm: auto
+  - leaf_size: 30
+  - metric: manhattan
+  - n_neighbors: 25
+  - p: 1
+  - weights: distance
+
+[2] Performance Metrics:
+  - MSE: 0.0343
+  - RMSE: 0.1853
+  - MAE: 0.1409
+  - R2: 0.8073
+  - PLCC: 0.9014
+  - SRCC: 0.7811
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_3 ---
+
+[1] Best Hyperparameters:
+  - algorithm: auto
+  - leaf_size: 50
+  - metric: manhattan
+  - n_neighbors: 15
+  - p: 1
+  - weights: distance
+
+[2] Performance Metrics:
+  - MSE: 0.0648
+  - RMSE: 0.2546
+  - MAE: 0.1961
+  - R2: 0.7019
+  - PLCC: 0.8432
+  - SRCC: 0.5251
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_DownSample ---
+
+[1] Best Hyperparameters:
+  - algorithm: auto
+  - leaf_size: 30
+  - metric: manhattan
+  - n_neighbors: 25
+  - p: 1
+  - weights: uniform
+
+[2] Performance Metrics:
+  - MSE: 0.2150
+  - RMSE: 0.4637
+  - MAE: 0.3459
+  - R2: 0.1853
+  - PLCC: 0.4341
+  - SRCC: 0.3302
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_LocalLoss ---
+
+[1] Best Hyperparameters:
+  - algorithm: auto
+  - leaf_size: 10
+  - metric: manhattan
+  - n_neighbors: 25
+  - p: 1
+  - weights: uniform
+
+[2] Performance Metrics:
+  - MSE: 0.1976
+  - RMSE: 0.4446
+  - MAE: 0.3614
+  - R2: 0.3183
+  - PLCC: 0.5764
+  - SRCC: 0.5575
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_Octree ---
+
+[1] Best Hyperparameters:
+  - algorithm: auto
+  - leaf_size: 30
+  - metric: manhattan
+  - n_neighbors: 25
+  - p: 1
+  - weights: uniform
+
+[2] Performance Metrics:
+  - MSE: 0.1750
+  - RMSE: 0.4183
+  - MAE: 0.3135
+  - R2: 0.5149
+  - PLCC: 0.7266
+  - SRCC: 0.6967
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_limitlossyG_lossyA ---
+
+[1] Best Hyperparameters:
+  - algorithm: auto
+  - leaf_size: 10
+  - metric: manhattan
+  - n_neighbors: 25
+  - p: 1
+  - weights: uniform
+
+[2] Performance Metrics:
+  - MSE: 0.2606
+  - RMSE: 0.5105
+  - MAE: 0.4232
+  - R2: 0.4959
+  - PLCC: 0.7051
+  - SRCC: 0.6993
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_lossy_geom_lossy_attrs ---
+
+[1] Best Hyperparameters:
+  - algorithm: auto
+  - leaf_size: 10
+  - metric: manhattan
+  - n_neighbors: 25
+  - p: 1
+  - weights: uniform
+
+[2] Performance Metrics:
+  - MSE: 0.2667
+  - RMSE: 0.5164
+  - MAE: 0.4150
+  - R2: 0.3601
+  - PLCC: 0.6002
+  - SRCC: 0.4760
+
+--------------------------------------------------------------------------------

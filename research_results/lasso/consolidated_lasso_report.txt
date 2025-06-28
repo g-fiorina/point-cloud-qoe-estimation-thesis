@@ -1,0 +1,189 @@
+================================================================================
+          Consolidated Lasso Pipeline Results Summary
+================================================================================
+Pipeline Configuration:
+  Feature Transform: normal
+  Scaling Method: Standard
+  Splitting: Complexity=True, Degradation=True, Combination=False
+  Test Size: 0.2, CV Folds: 5
+--------------------------------------------------------------------------------
+
+===== Group: all_data =====
+Status: success
+
+Best Hyperparameters:
+  alpha: 0.0001
+  max_iter: 1000
+  selection: cyclic
+  tol: 0.0001
+
+Metrics for Best Hyperparameters:
+  MSE : 0.28127
+  RMSE: 0.53035
+  MAE : 0.44387
+  R²  : 0.35300
+  PLCC: 0.59429
+  SRCC: 0.54188
+  Non-Zero Coefficients: 7
+
+--------------------------------------------------------------------------------
+
+===== Group: complexity_1 =====
+Status: success
+
+Best Hyperparameters:
+  alpha: 0.0001
+  max_iter: 1000
+  selection: cyclic
+  tol: 0.0001
+
+Metrics for Best Hyperparameters:
+  MSE : 0.04230
+  RMSE: 0.20566
+  MAE : 0.14975
+  R²  : 0.87354
+  PLCC: 0.93488
+  SRCC: 0.94491
+  Non-Zero Coefficients: 6
+
+--------------------------------------------------------------------------------
+
+===== Group: complexity_2 =====
+Status: success
+
+Best Hyperparameters:
+  alpha: 0.0001
+  max_iter: 1000
+  selection: cyclic
+  tol: 0.0001
+
+Metrics for Best Hyperparameters:
+  MSE : 0.06743
+  RMSE: 0.25967
+  MAE : 0.20510
+  R²  : 0.62152
+  PLCC: 0.78840
+  SRCC: 0.73202
+  Non-Zero Coefficients: 7
+
+--------------------------------------------------------------------------------
+
+===== Group: complexity_3 =====
+Status: success
+
+Best Hyperparameters:
+  alpha: 0.0001
+  max_iter: 1000
+  selection: cyclic
+  tol: 0.0001
+
+Metrics for Best Hyperparameters:
+  MSE : 0.11841
+  RMSE: 0.34410
+  MAE : 0.26283
+  R²  : 0.45540
+  PLCC: 0.67566
+  SRCC: 0.52371
+  Non-Zero Coefficients: 7
+
+--------------------------------------------------------------------------------
+
+===== Group: degradation_DownSample =====
+Status: success
+
+Best Hyperparameters:
+  alpha: 0.0001
+  max_iter: 1000
+  selection: random
+  tol: 0.0001
+
+Metrics for Best Hyperparameters:
+  MSE : 0.22151
+  RMSE: 0.47065
+  MAE : 0.36649
+  R²  : 0.16057
+  PLCC: 0.41749
+  SRCC: 0.34776
+  Non-Zero Coefficients: 7
+
+--------------------------------------------------------------------------------
+
+===== Group: degradation_LocalLoss =====
+Status: success
+
+Best Hyperparameters:
+  alpha: 0.01
+  max_iter: 1000
+  selection: cyclic
+  tol: 0.001
+
+Metrics for Best Hyperparameters:
+  MSE : 0.19315
+  RMSE: 0.43949
+  MAE : 0.35798
+  R²  : 0.33381
+  PLCC: 0.58797
+  SRCC: 0.57103
+  Non-Zero Coefficients: 3
+
+--------------------------------------------------------------------------------
+
+===== Group: degradation_Octree =====
+Status: success
+
+Best Hyperparameters:
+  alpha: 0.0001
+  max_iter: 1000
+  selection: cyclic
+  tol: 0.0001
+
+Metrics for Best Hyperparameters:
+  MSE : 0.20765
+  RMSE: 0.45568
+  MAE : 0.34970
+  R²  : 0.42426
+  PLCC: 0.65253
+  SRCC: 0.65483
+  Non-Zero Coefficients: 7
+
+--------------------------------------------------------------------------------
+
+===== Group: degradation_limitlossyG_lossyA =====
+Status: success
+
+Best Hyperparameters:
+  alpha: 0.0001
+  max_iter: 1000
+  selection: random
+  tol: 0.0001
+
+Metrics for Best Hyperparameters:
+  MSE : 0.27920
+  RMSE: 0.52839
+  MAE : 0.44562
+  R²  : 0.45989
+  PLCC: 0.67906
+  SRCC: 0.68604
+  Non-Zero Coefficients: 7
+
+--------------------------------------------------------------------------------
+
+===== Group: degradation_lossy_geom_lossy_attrs =====
+Status: success
+
+Best Hyperparameters:
+  alpha: 0.0001
+  max_iter: 1000
+  selection: cyclic
+  tol: 0.0001
+
+Metrics for Best Hyperparameters:
+  MSE : 0.28102
+  RMSE: 0.53012
+  MAE : 0.43581
+  R²  : 0.32577
+  PLCC: 0.57166
+  SRCC: 0.48020
+  Non-Zero Coefficients: 7
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,155 @@
+================================================================================
+      Comprehensive SVR Pipeline Analysis Report
+================================================================================
+Pipeline Configuration:
+  Feature Transform: normal
+  Scaling Method: Standard
+  CV Folds: 5
+  Test Size: 0.2
+  Split by Complexity: True
+  Split by Degradation: True
+================================================================================
+
+--- Group: all_data ---
+Status: success
+
+1. Best Hyperparameters:
+   C=0.1, epsilon=0.2, gamma=scale, kernel=rbf
+
+2. Performance Metrics (on Test Set):
+   - MSE:  0.2603
+   - RMSE: 0.5102
+   - MAE:  0.4090
+   - R²:   0.4012
+   - PLCC: 0.6355
+   - SRCC: 0.5549
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_1 ---
+Status: success
+
+1. Best Hyperparameters:
+   C=0.1, epsilon=0.01, gamma=scale, kernel=rbf
+
+2. Performance Metrics (on Test Set):
+   - MSE:  0.0373
+   - RMSE: 0.1931
+   - MAE:  0.1410
+   - R²:   0.8885
+   - PLCC: 0.9428
+   - SRCC: 0.9467
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_2 ---
+Status: success
+
+1. Best Hyperparameters:
+   C=10, epsilon=0.2, gamma=scale, kernel=rbf
+
+2. Performance Metrics (on Test Set):
+   - MSE:  0.0298
+   - RMSE: 0.1726
+   - MAE:  0.1292
+   - R²:   0.8328
+   - PLCC: 0.9127
+   - SRCC: 0.7751
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_3 ---
+Status: success
+
+1. Best Hyperparameters:
+   C=10, epsilon=0.01, gamma=auto, kernel=rbf
+
+2. Performance Metrics (on Test Set):
+   - MSE:  0.0514
+   - RMSE: 0.2266
+   - MAE:  0.1754
+   - R²:   0.7638
+   - PLCC: 0.8742
+   - SRCC: 0.5301
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_DownSample ---
+Status: success
+
+1. Best Hyperparameters:
+   C=10, epsilon=0.2, gamma=auto, kernel=rbf
+
+2. Performance Metrics (on Test Set):
+   - MSE:  0.2085
+   - RMSE: 0.4566
+   - MAE:  0.3258
+   - R²:   0.2099
+   - PLCC: 0.4914
+   - SRCC: 0.3325
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_LocalLoss ---
+Status: success
+
+1. Best Hyperparameters:
+   C=0.1, epsilon=0.2, gamma=scale, kernel=linear
+
+2. Performance Metrics (on Test Set):
+   - MSE:  0.1924
+   - RMSE: 0.4386
+   - MAE:  0.3367
+   - R²:   0.3365
+   - PLCC: 0.5899
+   - SRCC: 0.5691
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_Octree ---
+Status: success
+
+1. Best Hyperparameters:
+   C=0.1, epsilon=0.01, gamma=auto, kernel=rbf
+
+2. Performance Metrics (on Test Set):
+   - MSE:  0.1706
+   - RMSE: 0.4131
+   - MAE:  0.2968
+   - R²:   0.5268
+   - PLCC: 0.7270
+   - SRCC: 0.6857
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_limitlossyG_lossyA ---
+Status: success
+
+1. Best Hyperparameters:
+   C=0.1, epsilon=0.2, gamma=scale, kernel=rbf
+
+2. Performance Metrics (on Test Set):
+   - MSE:  0.2627
+   - RMSE: 0.5125
+   - MAE:  0.4119
+   - R²:   0.4919
+   - PLCC: 0.7058
+   - SRCC: 0.6978
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_lossy_geom_lossy_attrs ---
+Status: success
+
+1. Best Hyperparameters:
+   C=0.1, epsilon=0.2, gamma=scale, kernel=rbf
+
+2. Performance Metrics (on Test Set):
+   - MSE:  0.2648
+   - RMSE: 0.5146
+   - MAE:  0.4056
+   - R²:   0.3648
+   - PLCC: 0.6070
+   - SRCC: 0.4797
+
+--------------------------------------------------------------------------------

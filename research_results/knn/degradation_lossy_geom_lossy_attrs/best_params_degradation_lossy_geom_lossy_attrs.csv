@@ -1,0 +1,2 @@
+algorithm,leaf_size,metric,n_neighbors,p,weights
+auto,10,manhattan,25,1,uniform

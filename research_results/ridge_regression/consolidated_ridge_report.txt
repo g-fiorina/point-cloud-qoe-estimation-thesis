@@ -1,0 +1,173 @@
+Consolidated Report for Ridge Regression Pipeline
+============================================================
+
+--- Group: all_data ---
+Status: success
+
+  Best Hyperparameters:
+    alpha: 0.5
+    max_iter: 1000
+    solver: saga
+    tol: 0.01
+
+  Metrics:
+    MSE : 0.28134
+    RMSE: 0.53041
+    MAE : 0.44389
+    R²  : 0.35285
+    PLCC: 0.59417
+    SRCC: 0.54168
+
+============================================================
+
+--- Group: complexity_1 ---
+Status: success
+
+  Best Hyperparameters:
+    alpha: 0.0001
+    max_iter: 1000
+    solver: sag
+    tol: 0.01
+
+  Metrics:
+    MSE : 0.04234
+    RMSE: 0.20576
+    MAE : 0.14977
+    R²  : 0.87342
+    PLCC: 0.93485
+    SRCC: 0.94480
+
+============================================================
+
+--- Group: complexity_2 ---
+Status: success
+
+  Best Hyperparameters:
+    alpha: 0.5
+    max_iter: 1000
+    solver: sag
+    tol: 0.01
+
+  Metrics:
+    MSE : 0.06741
+    RMSE: 0.25964
+    MAE : 0.20533
+    R²  : 0.62162
+    PLCC: 0.78850
+    SRCC: 0.73231
+
+============================================================
+
+--- Group: complexity_3 ---
+Status: success
+
+  Best Hyperparameters:
+    alpha: 0.5
+    max_iter: 1000
+    solver: svd
+    tol: 0.0001
+
+  Metrics:
+    MSE : 0.11841
+    RMSE: 0.34410
+    MAE : 0.26284
+    R²  : 0.45541
+    PLCC: 0.67566
+    SRCC: 0.52359
+
+============================================================
+
+--- Group: degradation_DownSample ---
+Status: success
+
+  Best Hyperparameters:
+    alpha: 0.1
+    max_iter: 1000
+    solver: saga
+    tol: 0.01
+
+  Metrics:
+    MSE : 0.22155
+    RMSE: 0.47069
+    MAE : 0.36653
+    R²  : 0.16044
+    PLCC: 0.41752
+    SRCC: 0.34772
+
+============================================================
+
+--- Group: degradation_LocalLoss ---
+Status: success
+
+  Best Hyperparameters:
+    alpha: 100.0
+    max_iter: 1000
+    solver: lsqr
+    tol: 0.01
+
+  Metrics:
+    MSE : 0.19443
+    RMSE: 0.44094
+    MAE : 0.35998
+    R²  : 0.32940
+    PLCC: 0.58438
+    SRCC: 0.56615
+
+============================================================
+
+--- Group: degradation_Octree ---
+Status: success
+
+  Best Hyperparameters:
+    alpha: 1.0
+    max_iter: 1000
+    solver: sag
+    tol: 0.01
+
+  Metrics:
+    MSE : 0.20742
+    RMSE: 0.45544
+    MAE : 0.34930
+    R²  : 0.42488
+    PLCC: 0.65272
+    SRCC: 0.65464
+
+============================================================
+
+--- Group: degradation_limitlossyG_lossyA ---
+Status: success
+
+  Best Hyperparameters:
+    alpha: 5.0
+    max_iter: 1000
+    solver: sag
+    tol: 0.01
+
+  Metrics:
+    MSE : 0.27936
+    RMSE: 0.52854
+    MAE : 0.44655
+    R²  : 0.45957
+    PLCC: 0.67878
+    SRCC: 0.68609
+
+============================================================
+
+--- Group: degradation_lossy_geom_lossy_attrs ---
+Status: success
+
+  Best Hyperparameters:
+    alpha: 1.0
+    max_iter: 1000
+    solver: sag
+    tol: 0.0001
+
+  Metrics:
+    MSE : 0.28102
+    RMSE: 0.53011
+    MAE : 0.43581
+    R²  : 0.32578
+    PLCC: 0.57166
+    SRCC: 0.48017
+
+============================================================

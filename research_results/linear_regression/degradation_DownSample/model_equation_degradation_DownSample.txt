@@ -1,0 +1,13 @@
+Linear Regression Model Equation for Group: degradation_DownSample
+==================================================================
+
+MOS = 3.274456 - 0.031966 * BLER + 0.426113 * CQI + 0.003570 * Distance to BS (m) + 0.388007 * Nu - 0.182229 * SINR - 0.186039 * Throughput (Mbps) - 0.005200 * Velocity (m/s)
+
+Where:
+- BLER: Scaled feature value
+- CQI: Scaled feature value
+- Distance to BS (m): Scaled feature value
+- Nu: Scaled feature value
+- SINR: Scaled feature value
+- Throughput (Mbps): Scaled feature value
+- Velocity (m/s): Scaled feature value

@@ -1,0 +1,13 @@
+Linear Regression Model Equation for Group: degradation_lossy_geom_lossy_attrs
+==============================================================================
+
+MOS = 2.993313 - 0.037825 * BLER + 0.537594 * CQI + 0.010789 * Distance to BS (m) + 0.479592 * Nu - 0.212798 * SINR - 0.202744 * Throughput (Mbps) + 0.003458 * Velocity (m/s)
+
+Where:
+- BLER: Scaled feature value
+- CQI: Scaled feature value
+- Distance to BS (m): Scaled feature value
+- Nu: Scaled feature value
+- SINR: Scaled feature value
+- Throughput (Mbps): Scaled feature value
+- Velocity (m/s): Scaled feature value

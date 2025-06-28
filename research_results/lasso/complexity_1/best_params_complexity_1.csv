@@ -1,0 +1,2 @@
+alpha,max_iter,selection,tol
+0.0001,1000,cyclic,0.0001

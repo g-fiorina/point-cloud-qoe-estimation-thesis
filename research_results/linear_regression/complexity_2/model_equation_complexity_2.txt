@@ -1,0 +1,13 @@
+Linear Regression Model Equation for Group: complexity_2
+========================================================
+
+MOS = 3.018553 - 0.024807 * BLER + 0.455636 * CQI + 0.007722 * Distance to BS (m) + 0.480673 * Nu - 0.161951 * SINR - 0.248740 * Throughput (Mbps) + 0.003939 * Velocity (m/s)
+
+Where:
+- BLER: Scaled feature value
+- CQI: Scaled feature value
+- Distance to BS (m): Scaled feature value
+- Nu: Scaled feature value
+- SINR: Scaled feature value
+- Throughput (Mbps): Scaled feature value
+- Velocity (m/s): Scaled feature value

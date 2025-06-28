@@ -1,0 +1,183 @@
+================================================================================
+CONSOLIDATED GRADIENT BOOSTING RESULTS SUMMARY
+================================================================================
+
+===== Group: all_data =====
+Status: success
+
+[1] Best Hyperparameters:
+  - learning_rate: 0.1
+  - max_depth: 3
+  - min_samples_split: 10
+  - n_estimators: 50
+  - subsample: 1.0
+
+[2] Performance Metrics:
+  - MSE: 0.2514
+  - RMSE: 0.5014
+  - MAE: 0.4107
+  - R2: 0.4216
+  - PLCC: 0.6495
+  - SRCC: 0.5650
+
+------------------------------------------------------------
+
+===== Group: complexity_1 =====
+Status: success
+
+[1] Best Hyperparameters:
+  - learning_rate: 0.1
+  - max_depth: 3
+  - min_samples_split: 10
+  - n_estimators: 50
+  - subsample: 0.8
+
+[2] Performance Metrics:
+  - MSE: 0.0361
+  - RMSE: 0.1899
+  - MAE: 0.1387
+  - R2: 0.8921
+  - PLCC: 0.9446
+  - SRCC: 0.9487
+
+------------------------------------------------------------
+
+===== Group: complexity_2 =====
+Status: success
+
+[1] Best Hyperparameters:
+  - learning_rate: 0.1
+  - max_depth: 3
+  - min_samples_split: 10
+  - n_estimators: 50
+  - subsample: 0.8
+
+[2] Performance Metrics:
+  - MSE: 0.0286
+  - RMSE: 0.1691
+  - MAE: 0.1261
+  - R2: 0.8394
+  - PLCC: 0.9162
+  - SRCC: 0.7845
+
+------------------------------------------------------------
+
+===== Group: complexity_3 =====
+Status: success
+
+[1] Best Hyperparameters:
+  - learning_rate: 0.1
+  - max_depth: 3
+  - min_samples_split: 2
+  - n_estimators: 50
+  - subsample: 1.0
+
+[2] Performance Metrics:
+  - MSE: 0.0469
+  - RMSE: 0.2166
+  - MAE: 0.1671
+  - R2: 0.7843
+  - PLCC: 0.8859
+  - SRCC: 0.5479
+
+------------------------------------------------------------
+
+===== Group: degradation_DownSample =====
+Status: success
+
+[1] Best Hyperparameters:
+  - learning_rate: 0.01
+  - max_depth: 3
+  - min_samples_split: 10
+  - n_estimators: 200
+  - subsample: 0.8
+
+[2] Performance Metrics:
+  - MSE: 0.1900
+  - RMSE: 0.4359
+  - MAE: 0.3296
+  - R2: 0.2799
+  - PLCC: 0.5295
+  - SRCC: 0.3794
+
+------------------------------------------------------------
+
+===== Group: degradation_LocalLoss =====
+Status: success
+
+[1] Best Hyperparameters:
+  - learning_rate: 0.01
+  - max_depth: 3
+  - min_samples_split: 10
+  - n_estimators: 200
+  - subsample: 1.0
+
+[2] Performance Metrics:
+  - MSE: 0.1839
+  - RMSE: 0.4289
+  - MAE: 0.3444
+  - R2: 0.3655
+  - PLCC: 0.6238
+  - SRCC: 0.6017
+
+------------------------------------------------------------
+
+===== Group: degradation_Octree =====
+Status: success
+
+[1] Best Hyperparameters:
+  - learning_rate: 0.1
+  - max_depth: 3
+  - min_samples_split: 2
+  - n_estimators: 50
+  - subsample: 1.0
+
+[2] Performance Metrics:
+  - MSE: 0.1570
+  - RMSE: 0.3962
+  - MAE: 0.2832
+  - R2: 0.5647
+  - PLCC: 0.7518
+  - SRCC: 0.7005
+
+------------------------------------------------------------
+
+===== Group: degradation_limitlossyG_lossyA =====
+Status: success
+
+[1] Best Hyperparameters:
+  - learning_rate: 0.1
+  - max_depth: 3
+  - min_samples_split: 10
+  - n_estimators: 50
+  - subsample: 0.8
+
+[2] Performance Metrics:
+  - MSE: 0.2554
+  - RMSE: 0.5054
+  - MAE: 0.4055
+  - R2: 0.5060
+  - PLCC: 0.7121
+  - SRCC: 0.6996
+
+------------------------------------------------------------
+
+===== Group: degradation_lossy_geom_lossy_attrs =====
+Status: success
+
+[1] Best Hyperparameters:
+  - learning_rate: 0.1
+  - max_depth: 3
+  - min_samples_split: 10
+  - n_estimators: 50
+  - subsample: 0.8
+
+[2] Performance Metrics:
+  - MSE: 0.2491
+  - RMSE: 0.4991
+  - MAE: 0.4030
+  - R2: 0.4023
+  - PLCC: 0.6357
+  - SRCC: 0.5038
+
+------------------------------------------------------------

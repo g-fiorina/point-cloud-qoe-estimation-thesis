@@ -1,0 +1,2 @@
+alpha,max_iter,solver,tol
+0.5,1000,sag,0.01

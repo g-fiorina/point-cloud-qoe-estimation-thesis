@@ -1,0 +1,221 @@
+================================================================================
+Consolidated Analysis Report
+Feature Transformation: normal
+Scaling Method: Standard
+================================================================================
+
+--- Group: all_data ---
+
+[1] Best Hyperparameters:
+  - activation: relu
+  - alpha: 0.0001
+  - batch_size: 64
+  - early_stopping: True
+  - hidden_layer_sizes: (8, 8, 8)
+  - learning_rate: adaptive
+  - learning_rate_init: 0.01
+  - max_iter: 300
+  - n_iter_no_change: 10
+  - solver: sgd
+
+[2] Performance Metrics:
+  - MSE: 0.2540
+  - RMSE: 0.5040
+  - MAE: 0.4156
+  - R2: 0.4158
+  - PLCC: 0.6459
+  - SRCC: 0.5627
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_1 ---
+
+[1] Best Hyperparameters:
+  - activation: relu
+  - alpha: 0.001
+  - batch_size: auto
+  - early_stopping: True
+  - hidden_layer_sizes: (8, 8, 8)
+  - learning_rate: constant
+  - learning_rate_init: 0.01
+  - max_iter: 300
+  - n_iter_no_change: 10
+  - solver: adam
+
+[2] Performance Metrics:
+  - MSE: 0.0370
+  - RMSE: 0.1923
+  - MAE: 0.1416
+  - R2: 0.8895
+  - PLCC: 0.9431
+  - SRCC: 0.9475
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_2 ---
+
+[1] Best Hyperparameters:
+  - activation: relu
+  - alpha: 0.001
+  - batch_size: 32
+  - early_stopping: True
+  - hidden_layer_sizes: (8, 8, 8)
+  - learning_rate: adaptive
+  - learning_rate_init: 0.01
+  - max_iter: 300
+  - n_iter_no_change: 10
+  - solver: sgd
+
+[2] Performance Metrics:
+  - MSE: 0.0287
+  - RMSE: 0.1695
+  - MAE: 0.1263
+  - R2: 0.8387
+  - PLCC: 0.9161
+  - SRCC: 0.7751
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_3 ---
+
+[1] Best Hyperparameters:
+  - activation: relu
+  - alpha: 0.0001
+  - batch_size: 32
+  - early_stopping: True
+  - hidden_layer_sizes: (8, 8, 8)
+  - learning_rate: adaptive
+  - learning_rate_init: 0.01
+  - max_iter: 300
+  - n_iter_no_change: 10
+  - solver: sgd
+
+[2] Performance Metrics:
+  - MSE: 0.0497
+  - RMSE: 0.2229
+  - MAE: 0.1717
+  - R2: 0.7715
+  - PLCC: 0.8788
+  - SRCC: 0.5653
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_DownSample ---
+
+[1] Best Hyperparameters:
+  - activation: relu
+  - alpha: 0.0001
+  - batch_size: auto
+  - early_stopping: True
+  - hidden_layer_sizes: (32, 32)
+  - learning_rate: adaptive
+  - learning_rate_init: 0.01
+  - max_iter: 300
+  - n_iter_no_change: 10
+  - solver: sgd
+
+[2] Performance Metrics:
+  - MSE: 0.2101
+  - RMSE: 0.4584
+  - MAE: 0.3453
+  - R2: 0.2038
+  - PLCC: 0.4672
+  - SRCC: 0.3335
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_LocalLoss ---
+
+[1] Best Hyperparameters:
+  - activation: relu
+  - alpha: 0.0001
+  - batch_size: 32
+  - early_stopping: True
+  - hidden_layer_sizes: (64, 32, 16)
+  - learning_rate: constant
+  - learning_rate_init: 0.01
+  - max_iter: 300
+  - n_iter_no_change: 10
+  - solver: sgd
+
+[2] Performance Metrics:
+  - MSE: 0.1970
+  - RMSE: 0.4438
+  - MAE: 0.3566
+  - R2: 0.3206
+  - PLCC: 0.5725
+  - SRCC: 0.5502
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_Octree ---
+
+[1] Best Hyperparameters:
+  - activation: relu
+  - alpha: 0.001
+  - batch_size: 32
+  - early_stopping: True
+  - hidden_layer_sizes: (64, 32, 16)
+  - learning_rate: constant
+  - learning_rate_init: 0.01
+  - max_iter: 300
+  - n_iter_no_change: 10
+  - solver: adam
+
+[2] Performance Metrics:
+  - MSE: 0.1626
+  - RMSE: 0.4032
+  - MAE: 0.2970
+  - R2: 0.5492
+  - PLCC: 0.7461
+  - SRCC: 0.6988
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_limitlossyG_lossyA ---
+
+[1] Best Hyperparameters:
+  - activation: relu
+  - alpha: 0.0001
+  - batch_size: auto
+  - early_stopping: True
+  - hidden_layer_sizes: (64, 32)
+  - learning_rate: adaptive
+  - learning_rate_init: 0.01
+  - max_iter: 300
+  - n_iter_no_change: 10
+  - solver: sgd
+
+[2] Performance Metrics:
+  - MSE: 0.2460
+  - RMSE: 0.4960
+  - MAE: 0.4061
+  - R2: 0.5241
+  - PLCC: 0.7256
+  - SRCC: 0.7157
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_lossy_geom_lossy_attrs ---
+
+[1] Best Hyperparameters:
+  - activation: relu
+  - alpha: 0.001
+  - batch_size: 32
+  - early_stopping: True
+  - hidden_layer_sizes: (64,)
+  - learning_rate: adaptive
+  - learning_rate_init: 0.01
+  - max_iter: 300
+  - n_iter_no_change: 10
+  - solver: sgd
+
+[2] Performance Metrics:
+  - MSE: 0.2615
+  - RMSE: 0.5114
+  - MAE: 0.4143
+  - R2: 0.3725
+  - PLCC: 0.6184
+  - SRCC: 0.4963
+
+--------------------------------------------------------------------------------

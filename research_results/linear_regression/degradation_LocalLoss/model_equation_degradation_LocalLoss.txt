@@ -1,0 +1,13 @@
+Linear Regression Model Equation for Group: degradation_LocalLoss
+=================================================================
+
+MOS = 2.827353 - 0.002472 * BLER + 0.128371 * CQI - 0.005929 * Distance to BS (m) + 0.096120 * Nu - 0.069285 * SINR + 0.193249 * Throughput (Mbps) - 0.005645 * Velocity (m/s)
+
+Where:
+- BLER: Scaled feature value
+- CQI: Scaled feature value
+- Distance to BS (m): Scaled feature value
+- Nu: Scaled feature value
+- SINR: Scaled feature value
+- Throughput (Mbps): Scaled feature value
+- Velocity (m/s): Scaled feature value

@@ -1,0 +1,2 @@
+activation,alpha,batch_size,early_stopping,hidden_layer_sizes,learning_rate,learning_rate_init,max_iter,n_iter_no_change,solver
+relu,0.0001,auto,True,"(64, 32)",adaptive,0.01,300,10,sgd

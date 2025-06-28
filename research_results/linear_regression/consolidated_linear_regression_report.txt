@@ -1,0 +1,191 @@
+=================================================
+   Consolidated Linear Regression Report
+=================================================
+
+=================================================
+              Group Summaries
+=================================================
+
+-------------------------------------------------
+          Group: all_data
+-------------------------------------------------
+Status: success
+
+Configuration Settings:
+  - Feature Transform      : normal
+  - Scaling Method         : Standard
+  - Test Size              : 0.2
+  - CV Folds               : 5
+  - Random State           : 42
+
+Metrics:
+  - MSE          : 0.281278
+  - RMSE         : 0.530357
+  - MAE          : 0.443822
+  - R2           : 0.352991
+  - PLCC         : 0.594270
+  - SRCC         : 0.541671
+
+-------------------------------------------------
+          Group: complexity_1
+-------------------------------------------------
+Status: success
+
+Configuration Settings:
+  - Feature Transform      : normal
+  - Scaling Method         : Standard
+  - Test Size              : 0.2
+  - CV Folds               : 5
+  - Random State           : 42
+
+Metrics:
+  - MSE          : 0.042324
+  - RMSE         : 0.205727
+  - MAE          : 0.149786
+  - R2           : 0.873458
+  - PLCC         : 0.934848
+  - SRCC         : 0.944792
+
+-------------------------------------------------
+          Group: complexity_2
+-------------------------------------------------
+Status: success
+
+Configuration Settings:
+  - Feature Transform      : normal
+  - Scaling Method         : Standard
+  - Test Size              : 0.2
+  - CV Folds               : 5
+  - Random State           : 42
+
+Metrics:
+  - MSE          : 0.067446
+  - RMSE         : 0.259703
+  - MAE          : 0.205094
+  - R2           : 0.621424
+  - PLCC         : 0.788343
+  - SRCC         : 0.731837
+
+-------------------------------------------------
+          Group: complexity_3
+-------------------------------------------------
+Status: success
+
+Configuration Settings:
+  - Feature Transform      : normal
+  - Scaling Method         : Standard
+  - Test Size              : 0.2
+  - CV Folds               : 5
+  - Random State           : 42
+
+Metrics:
+  - MSE          : 0.118401
+  - RMSE         : 0.344094
+  - MAE          : 0.262862
+  - R2           : 0.455433
+  - PLCC         : 0.675664
+  - SRCC         : 0.523427
+
+-------------------------------------------------
+          Group: degradation_DownSample
+-------------------------------------------------
+Status: success
+
+Configuration Settings:
+  - Feature Transform      : normal
+  - Scaling Method         : Standard
+  - Test Size              : 0.2
+  - CV Folds               : 5
+  - Random State           : 42
+
+Metrics:
+  - MSE          : 0.221655
+  - RMSE         : 0.470803
+  - MAE          : 0.366646
+  - R2           : 0.160033
+  - PLCC         : 0.417166
+  - SRCC         : 0.347247
+
+-------------------------------------------------
+          Group: degradation_LocalLoss
+-------------------------------------------------
+Status: success
+
+Configuration Settings:
+  - Feature Transform      : normal
+  - Scaling Method         : Standard
+  - Test Size              : 0.2
+  - CV Folds               : 5
+  - Random State           : 42
+
+Metrics:
+  - MSE          : 0.192725
+  - RMSE         : 0.439005
+  - MAE          : 0.358327
+  - R2           : 0.335269
+  - PLCC         : 0.588570
+  - SRCC         : 0.568561
+
+-------------------------------------------------
+          Group: degradation_Octree
+-------------------------------------------------
+Status: success
+
+Configuration Settings:
+  - Feature Transform      : normal
+  - Scaling Method         : Standard
+  - Test Size              : 0.2
+  - CV Folds               : 5
+  - Random State           : 42
+
+Metrics:
+  - MSE          : 0.207617
+  - RMSE         : 0.455650
+  - MAE          : 0.349530
+  - R2           : 0.424340
+  - PLCC         : 0.652578
+  - SRCC         : 0.654601
+
+-------------------------------------------------
+          Group: degradation_limitlossyG_lossyA
+-------------------------------------------------
+Status: success
+
+Configuration Settings:
+  - Feature Transform      : normal
+  - Scaling Method         : Standard
+  - Test Size              : 0.2
+  - CV Folds               : 5
+  - Random State           : 42
+
+Metrics:
+  - MSE          : 0.279162
+  - RMSE         : 0.528357
+  - MAE          : 0.445542
+  - R2           : 0.459956
+  - PLCC         : 0.679117
+  - SRCC         : 0.686029
+
+-------------------------------------------------
+          Group: degradation_lossy_geom_lossy_attrs
+-------------------------------------------------
+Status: success
+
+Configuration Settings:
+  - Feature Transform      : normal
+  - Scaling Method         : Standard
+  - Test Size              : 0.2
+  - CV Folds               : 5
+  - Random State           : 42
+
+Metrics:
+  - MSE          : 0.281065
+  - RMSE         : 0.530156
+  - MAE          : 0.435741
+  - R2           : 0.325670
+  - PLCC         : 0.571601
+  - SRCC         : 0.480030
+
+=================================================
+                 End of Report
+=================================================

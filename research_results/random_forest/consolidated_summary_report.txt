@@ -1,0 +1,184 @@
+================================================================================
+Consolidated Random Forest Pipeline Summary Report
+================================================================================
+
+--- Group: all_data ---
+Status: success
+
+[Best Hyperparameters]
+  max_depth: 10
+  max_features: sqrt
+  min_samples_leaf: 4
+  min_samples_split: 10
+  n_estimators: 150
+
+[Metrics]
+  MSE: 0.2561
+  RMSE: 0.5061
+  MAE: 0.4131
+  R2: 0.4109
+  PLCC: 0.6411
+  SRCC: 0.5579
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_1 ---
+Status: success
+
+[Best Hyperparameters]
+  max_depth: 10
+  max_features: sqrt
+  min_samples_leaf: 4
+  min_samples_split: 10
+  n_estimators: 300
+
+[Metrics]
+  MSE: 0.0363
+  RMSE: 0.1906
+  MAE: 0.1387
+  R2: 0.8914
+  PLCC: 0.9442
+  SRCC: 0.9479
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_2 ---
+Status: success
+
+[Best Hyperparameters]
+  max_depth: 10
+  max_features: sqrt
+  min_samples_leaf: 4
+  min_samples_split: 2
+  n_estimators: 50
+
+[Metrics]
+  MSE: 0.0290
+  RMSE: 0.1704
+  MAE: 0.1284
+  R2: 0.8370
+  PLCC: 0.9149
+  SRCC: 0.7802
+
+--------------------------------------------------------------------------------
+
+--- Group: complexity_3 ---
+Status: success
+
+[Best Hyperparameters]
+  max_depth: 10
+  max_features: sqrt
+  min_samples_leaf: 4
+  min_samples_split: 2
+  n_estimators: 300
+
+[Metrics]
+  MSE: 0.0474
+  RMSE: 0.2178
+  MAE: 0.1690
+  R2: 0.7818
+  PLCC: 0.8847
+  SRCC: 0.5482
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_DownSample ---
+Status: success
+
+[Best Hyperparameters]
+  max_depth: 10
+  max_features: sqrt
+  min_samples_leaf: 4
+  min_samples_split: 10
+  n_estimators: 300
+
+[Metrics]
+  MSE: 0.1974
+  RMSE: 0.4443
+  MAE: 0.3353
+  R2: 0.2519
+  PLCC: 0.5075
+  SRCC: 0.3510
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_LocalLoss ---
+Status: success
+
+[Best Hyperparameters]
+  max_depth: 10
+  max_features: None
+  min_samples_leaf: 4
+  min_samples_split: 10
+  n_estimators: 300
+
+[Metrics]
+  MSE: 0.1896
+  RMSE: 0.4354
+  MAE: 0.3488
+  R2: 0.3460
+  PLCC: 0.6035
+  SRCC: 0.5917
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_Octree ---
+Status: success
+
+[Best Hyperparameters]
+  max_depth: 10
+  max_features: sqrt
+  min_samples_leaf: 4
+  min_samples_split: 2
+  n_estimators: 300
+
+[Metrics]
+  MSE: 0.1584
+  RMSE: 0.3980
+  MAE: 0.2860
+  R2: 0.5608
+  PLCC: 0.7491
+  SRCC: 0.6993
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_limitlossyG_lossyA ---
+Status: success
+
+[Best Hyperparameters]
+  max_depth: 10
+  max_features: sqrt
+  min_samples_leaf: 4
+  min_samples_split: 10
+  n_estimators: 300
+
+[Metrics]
+  MSE: 0.2524
+  RMSE: 0.5023
+  MAE: 0.4018
+  R2: 0.5118
+  PLCC: 0.7162
+  SRCC: 0.7077
+
+--------------------------------------------------------------------------------
+
+--- Group: degradation_lossy_geom_lossy_attrs ---
+Status: success
+
+[Best Hyperparameters]
+  max_depth: 10
+  max_features: sqrt
+  min_samples_leaf: 4
+  min_samples_split: 10
+  n_estimators: 300
+
+[Metrics]
+  MSE: 0.2511
+  RMSE: 0.5011
+  MAE: 0.4044
+  R2: 0.3976
+  PLCC: 0.6330
+  SRCC: 0.4981
+
+--------------------------------------------------------------------------------
+
